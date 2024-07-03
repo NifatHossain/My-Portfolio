@@ -4,7 +4,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 const Introduction = () => {
     return (
-        <div className="flex justify-center items-center relative h-[calc(100vh-80px)]">
+        <div className="flex justify-center items-center relative min-h-screen">
             <div className="bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] inset-0 z-10 absolute opacity-20"></div>
             <div className="bg-slate-200 opacity-65 absolute inset-0"></div>
             <div className="z-20 flex flex-col justify-center items-center space-y-8">

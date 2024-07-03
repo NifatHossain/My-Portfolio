@@ -5,7 +5,9 @@ import Navbar from "../pages/homeComp/Navbar";
 const MainLayout = () => {
     return (
         <div className="roboto">
-            <Navbar></Navbar>
+            <div className="fixed z-30 w-full">
+                <Navbar></Navbar>
+            </div>
             <Outlet></Outlet>
         </div>
     );
