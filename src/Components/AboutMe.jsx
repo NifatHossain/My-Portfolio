@@ -2,7 +2,7 @@
 
 const AboutMe = () => {
     return (
-        <div className="py-8 bg-gradient-to-t from-slate-200 via-slate-100 to-slate-200 space-y-4">
+        <div id="aboutMe" className="py-16 bg-gradient-to-t from-slate-200 via-slate-100 to-slate-200 space-y-4">
             <h2 className="text-3xl uppercase font-bold text-center">About Me</h2>
             <div className="max-w-2xl mx-auto pb-16">
                 <p className="text-center text-lg">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
@@ -12,8 +12,8 @@ const AboutMe = () => {
                     <h2 className="text-2xl font-semibold justify-center">Learn more about me!</h2>
                     <p className="text-lg">I am a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
                     <p className="text-lg">I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming</p>
-                    <p className="text-lg">I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-                    <a href="#contact"><button className="btn btn-primary text-white text-lg px-4">Contact</button></a>
+                    <p className="text-lg">I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.</p>
+                    <a href="#contact"><button className="btn btn-primary text-white text-lg px-4 mt-4">Get Resume</button></a>
                 </div>
                 <div>
                     <div className="space-y-4 mb-4">
@@ -21,7 +21,7 @@ const AboutMe = () => {
                         <ul>
                             <li className="text-lg">BS in Computer Science & Engineering</li>
                             <li className="text-lg">North South University</li>
-                            <li className="text-lg">Year: 2022-2025</li>
+                            <li className="text-lg">Year : 2022-2025</li>
                         </ul>
                     </div>
                     <div>
