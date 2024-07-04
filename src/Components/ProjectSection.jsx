@@ -14,7 +14,7 @@ const ProjectSection = () => {
                 </div>
                 <div className="max-w-2xl space-y-4">
                     <h2 className="text-2xl font-semibold">Blood Bridge</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, esse at, ullam recusandae atque voluptatem eligendi ipsum, sit vero iusto doloremque quas? Vitae ipsa ratione minus, repellendus iste ad ducimus.</p>
+                    <p className="text-lg">Blood Bridge is a demo website for connecting blood donors and Recipients.</p>
                     <Link to={'/bloodbridge'}> <button className="btn btn-primary text-white mt-4">Project Details</button> </Link>
                 </div>
             </div>
@@ -24,7 +24,7 @@ const ProjectSection = () => {
                 </div>
                 <div className="max-w-2xl space-y-4">
                 <h2 className="text-2xl font-semibold">Cure Hospital</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, esse at, ullam recusandae atque voluptatem eligendi ipsum, sit vero iusto doloremque quas? Vitae ipsa ratione minus, repellendus iste ad ducimus.</p>
+                    <p className="text-lg">A website where patients can look for desired doctors and book appointment.</p>
                     <Link to={'/curehospital'}> <button className="btn btn-primary text-white mt-4">Project Details</button> </Link>
                 </div>
             </div>

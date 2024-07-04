@@ -10,9 +10,9 @@ const BloodBridge = () => {
                     <img src="https://i.ibb.co/r3bFx3v/image-1.png" alt="" />
                     <div className="flex justify-center">
                         <div className="flex gap-4">
-                            <a href="https://bloodbridgelive.netlify.app"><button className="btn btn-outline btn-primary">Live Preview</button></a>
-                            <a href="https://github.com/NifatHossain/Blood-Bridge-Client-Site"><button className="btn btn-outline">Client site code</button></a>
-                            <a href="https://github.com/NifatHossain/Blood-Bridge-Server"><button className="btn btn-outline">Server code</button></a>
+                            <a href="https://bloodbridgelive.netlify.app" target="_blank"><button className="btn btn-outline btn-primary">Live Preview</button></a>
+                            <a href="https://github.com/NifatHossain/Blood-Bridge-Client-Site" target="_blank"><button className="btn btn-outline">Client site code</button></a>
+                            <a href="https://github.com/NifatHossain/Blood-Bridge-Server" target="_blank"><button className="btn btn-outline">Server code</button></a>
                         </div>
                     </div>
                 </div>
