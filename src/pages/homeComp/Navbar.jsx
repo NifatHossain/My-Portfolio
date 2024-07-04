@@ -1,5 +1,5 @@
 
-
+import pdfFile from "/resumeExample.pdf"
 const Navbar = () => {
     return (
         <div>
@@ -18,6 +18,7 @@ const Navbar = () => {
                         <li className="font-bold text-lg"><a href="/#aboutMe">About Me</a></li>
                         <li className="font-bold text-lg"><a href="/#projects">Projects</a></li>
                         <li className="font-bold text-lg"><a href="/#contact">Contact</a></li>
+                        <li className="font-bold text-lg"><a href={pdfFile} download={'test.pdf'}>Resume</a></li>
                     </ul>
                 </div>
             </div>

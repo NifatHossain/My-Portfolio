@@ -27,7 +27,7 @@ const Contact = () => {
         (error) => {
             Swal.fire({
                 icon: "success",
-                title: "An error occured",
+                title: `An error occured ${error.text}`,
                 showConfirmButton: false,
                 timer: 1500
               });
@@ -36,7 +36,7 @@ const Contact = () => {
         );
     };
     return (
-        <div className="relative py-16">
+        <div id="contact" className="relative py-16">
             <div className="bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] inset-0 z-10 absolute opacity-20"></div>
             <div className="bg-slate-200 opacity-65 absolute inset-0"></div>
             <div className="z-20 relative space-y-4">

@@ -18,6 +18,14 @@ const Introduction = () => {
                 <a href="https://github.com/NifatHossain" target="_blank"><FaSquareGithub /></a>
 
             </div>
+            <div className="absolute right-20 top-[22%] z-20">
+            <div className="avatar">
+                <div className="w-80 rounded-full">
+                    <img src="https://i.ibb.co/VB3GWVC/pic2-removebg-preview.png" />
+                </div>
+            </div>
+
+            </div>
 
         </div>
     );
