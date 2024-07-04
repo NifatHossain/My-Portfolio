@@ -34,7 +34,7 @@ const ProjectSection = () => {
                 </div>
                 <div className="max-w-2xl space-y-4">
                 <h2 className="text-2xl font-semibold">Aesthetic Pottery</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, esse at, ullam recusandae atque voluptatem eligendi ipsum, sit vero iusto doloremque quas? Vitae ipsa ratione minus, repellendus iste ad ducimus.</p>
+                    <p className="text-lg">A website for buying unique and traditional pottery items.</p>
                     <Link to={'/potteryshop'}> <button className="btn btn-primary text-white mt-4">Project Details</button> </Link>
                 </div>
             </div>
