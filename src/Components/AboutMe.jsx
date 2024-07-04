@@ -10,8 +10,8 @@ const AboutMe = () => {
             <div className="grid grid-cols-2 gap-14 px-20 ">
                 <div className="space-y-4">
                     <h2 className="text-2xl font-semibold justify-center">Learn more about me!</h2>
-                    <p className="text-lg">I am a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
-                    <p className="text-lg">I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming</p>
+                    <p className="text-lg">I am a frontend-focused web developer using MERN stack to build userfriendly and responsive websites. Explore some of my works in the Projects section.</p>
+                    <p className="text-lg">Currently, I am persuing my undergraduate degree in Computer Science and Engineering at North South University, Dhaka. I&apos;m always curious about new technologies and continuously learning them to stay ahead of the curve in an ever-evolving industry.</p>
                     <p className="text-lg">I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.</p>
                     <a href={pdfFile} download><button className="btn btn-primary text-white text-lg px-4 mt-4">Get Resume</button></a>
                 </div>

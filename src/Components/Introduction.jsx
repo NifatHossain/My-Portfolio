@@ -9,7 +9,7 @@ const Introduction = () => {
             <div className="bg-slate-200 opacity-65 absolute inset-0"></div>
             <div className="z-20 flex flex-col justify-center items-center space-y-8">
                 <h1 className="text-4xl font-semibold text-black uppercase">Hi! I am Nifat Hossain</h1>
-                <h2 className="text-center text-lg ">A Result-Oriented Web Developer building and managing Websites and Web <br /> Applications that leads to the success of the overall product</h2>
+                <h2 className="text-center text-lg ">I am a frontend-focused web developer using MERN stack to build <br /> userfriendly and responsive websites</h2>
                 <a href="#projects"><button className="btn btn-primary text-xl text-white">Projects</button></a>
             </div>
             <div className="flex flex-col gap-3 absolute left-0 top-[40%] bg-white p-4 text-4xl z-20">
