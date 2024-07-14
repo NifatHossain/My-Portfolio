@@ -1,13 +1,13 @@
 
-import pdfFile from "../../public/resumeExample.pdf"
+import pdfFile from "/Nifat-Hossain-webDeveloper01.pdf"
 const AboutMe = () => {
     return (
         <div id="aboutMe" className="py-16 bg-gradient-to-t from-slate-200 via-slate-100 to-slate-200 space-y-4">
             <h2 className="text-3xl uppercase font-bold text-center">About Me</h2>
-            <div className="max-w-2xl mx-auto pb-16">
-                <p className="text-center text-lg">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+            <div className="max-w-2xl mx-auto pb-4 md:pb-16">
+                <p className="text-center text-lg px-5">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
             </div>
-            <div className="grid grid-cols-2 gap-14 px-20 ">
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-14 px-5 md:px-20 ">
                 <div className="space-y-4">
                     <h2 className="text-2xl font-semibold justify-center">Learn more about me!</h2>
                     <p className="text-lg">I am a frontend-focused web developer using MERN stack to build userfriendly and responsive websites. Explore some of my works in the Projects section.</p>

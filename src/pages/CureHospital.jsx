@@ -5,7 +5,7 @@ const CureHospital = () => {
         <div className="relative">
             <div className="bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] inset-0 z-10 absolute opacity-20"></div>
             <div className="bg-slate-200 opacity-65 absolute inset-0"></div>
-            <div className="pt-32 flex items-center gap-8 p-16 z-20 relative">
+            <div className="pt-20 md:pt-32 flex flex-col md:flex-row items-center gap-8 p-4 md:p-16 z-20 relative">
                 <div>
                     <img src="https://i.ibb.co/fGKr0VL/image-2.png" alt="" />
                     <div className="flex justify-center">

@@ -4,7 +4,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className=" bg-black text-white py-16 px-[10%]">
+        <div className=" bg-black text-white py-8 md:py-16 px-[10%]">
            <footer className="footer pb-16">
                 <aside>
                     <p><span className="text-xl font-semibold">NIFAT HOSSAIN</span></p>
