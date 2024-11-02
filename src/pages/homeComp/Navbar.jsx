@@ -1,5 +1,5 @@
 
-import pdfFile from "/Nifat-Hossain-webDeveloper01.pdf"
+import pdfFile from "/NifatHossain_WebDeveloperResume.pdf"
 const Navbar = () => {
     return (
         <div>
@@ -47,7 +47,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href={pdfFile} download={'test.pdf'}><button className="btn btn-primary text-white">Resume</button></a>
+                    <a href={pdfFile} download={'NifatHossain_WebDeveloperResume.pdf'}><button className="btn btn-primary text-white">Resume</button></a>
                 </div>
             </div>
         </div>

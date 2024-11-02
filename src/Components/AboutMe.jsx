@@ -1,5 +1,5 @@
 
-import pdfFile from "/Nifat-Hossain-webDeveloper01.pdf"
+import pdfFile from "/NifatHossain_WebDeveloperResume.pdf"
 const AboutMe = () => {
     return (
         <div id="aboutMe" className="py-16 bg-gradient-to-t from-slate-200 via-slate-100 to-slate-200 space-y-4">
@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <p className="text-lg">I am a frontend-focused web developer using MERN stack to build userfriendly and responsive websites. Explore some of my works in the Projects section.</p>
                     <p className="text-lg">Currently, I am persuing my undergraduate degree in Computer Science and Engineering at North South University, Dhaka. I&apos;m always curious about new technologies and continuously learning them to stay ahead of the curve in an ever-evolving industry.</p>
                     <p className="text-lg">I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.</p>
-                    <a href={pdfFile} download><button className="btn btn-primary text-white text-lg px-4 mt-4">Get Resume</button></a>
+                    <a href={pdfFile}  download={'NifatHossain_WebDeveloperResume.pdf'}><button className="btn btn-primary text-white text-lg px-4 mt-4">Get Resume</button></a>
                 </div>
                 <div>
                     <div className="space-y-4 mb-4">

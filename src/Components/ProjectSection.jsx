@@ -22,6 +22,18 @@ const ProjectSection = () => {
             </div>
             <div className="flex flex-col md:flex-row  gap-4 justify-center items-center px-4 md:px-14">
                 <div>
+                    <img src="https://i.ibb.co.com/wd6QQ98/file.png" alt="" />
+                </div>
+                <div className="max-w-2xl space-y-4">
+                <h2 className="text-2xl font-semibold  text-center">DevDive (Team Project)</h2>
+                    <p className="text-lg  text-center">A platform for developers to share technical knowledge and provide debugging assistance.</p>
+                    <div className="flex justify-center">
+                        <Link to={'/devDive'}> <button className="btn btn-primary text-white mt-1 md:mt-4">Project Details</button> </Link>
+                    </div>
+                </div>
+            </div>
+            <div className="flex flex-col md:flex-row  gap-4 justify-center items-center px-4 md:px-14">
+                <div>
                     <img src="https://i.ibb.co/fGKr0VL/image-2.png" alt="" />
                 </div>
                 <div className="max-w-2xl space-y-4">
@@ -32,18 +44,7 @@ const ProjectSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row  gap-4 justify-center items-center px-4 md:px-14">
-                <div>
-                    <img src="https://i.ibb.co/5MH6j6q/image-3.png" alt="" />
-                </div>
-                <div className="max-w-2xl space-y-4">
-                <h2 className="text-2xl font-semibold  text-center">Aesthetic Pottery</h2>
-                    <p className="text-lg  text-center">A website for buying unique and traditional pottery items.</p>
-                    <div className="flex justify-center">
-                        <Link to={'/potteryshop'}> <button className="btn btn-primary text-white mt-1 md:mt-4">Project Details</button> </Link>
-                    </div>
-                </div>
-            </div>
+            
 
         </div>
     );

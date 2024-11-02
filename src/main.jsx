@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import BloodBridge from './pages/BloodBridge';
 import CureHospital from './pages/CureHospital';
 import PotteryShop from './pages/PotteryShop';
+import DevDive from './pages/DevDive';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,8 +30,8 @@ const router = createBrowserRouter([
         element:<CureHospital></CureHospital>
       },
       {
-        path:"/potteryshop",
-        element:<PotteryShop></PotteryShop>
+        path:"/devDive",
+        element:<DevDive></DevDive>
       }
     ]
   },
